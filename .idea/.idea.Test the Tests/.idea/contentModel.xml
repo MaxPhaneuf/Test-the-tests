@@ -11,9 +11,9 @@
           <e p="ScriptsAssembly.asmdef" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
-        <e p="Tests 1" t="Include">
+        <e p="Tests" t="Include">
           <e p="CameraTests.cs" t="Include" />
-          <e p="Tests 1.asmdef" t="Include" />
+          <e p="Tests.asmdef" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">
