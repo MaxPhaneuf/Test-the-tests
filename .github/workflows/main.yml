@@ -23,6 +23,6 @@ jobs:
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
       with:
-        projectPath: Test-the-tests/
+        projectPath: https://github.com/MaxPhaneuf/Test-the-tests/tree/master/Assets
         unityVersion: 2020.1.2f1
   
