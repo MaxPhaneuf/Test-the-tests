@@ -9,18 +9,10 @@ env:
 
 jobs:
   testAllModes:
-    name: Test in ${{ matrix.testMode }} on version ${{ matrix.unityVersion }}
+    name: Test
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        unityVersion:
-          - 2020.1.2f1
-        testMode:
-          - editmode
     steps:
-      - uses: webbertakken/unity-test-runner@v1.4
-        id: tests
+      - name: Unity - Test runner
+        uses: webbertakken/unity-test-runner@v2.0-alpha-1
         with:
-          unityVersion: ${{ matrix.unityVersion }}
-          testMode: ${{ matrix.testMode }}
+          unityVersion: 2020.1.2f1
