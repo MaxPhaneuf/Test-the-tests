@@ -50,8 +50,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Tests 1\CameraTests.cs" />
-     <None Include="Assets\Tests 1\Tests 1.asmdef" />
+     <Compile Include="Assets\Tests\CameraTests.cs" />
+     <None Include="Assets\Tests\Tests.asmdef" />
  <Reference Include="UnityEngine.TestRunner">
  <HintPath>C:/Users/Max/Desktop/Test the Tests/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
