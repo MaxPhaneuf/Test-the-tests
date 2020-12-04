@@ -32,7 +32,7 @@ jobs:
       - uses: webbertakken/unity-test-runner@v1.4
         id: tests
         with:
-          projectPath: ${{ matrix.projectPath }}
+          projectPath: ${{ matrix.projectPath }}/Assets/Tests
           unityVersion: ${{ matrix.unityVersion }}
           testMode: ${{ matrix.testMode }}
           artifactsPath: ${{ matrix.testMode }}-artifacts
