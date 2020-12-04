@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 909, y: 392}
-  m_MaxSize: {x: 22004, y: 14042}
+  m_MinSize: {x: 908, y: 371}
+  m_MaxSize: {x: 22003, y: 14021}
   vertical: 0
-  controlID: 134
+  controlID: 18
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1338
     height: 947
-  m_MinSize: {x: 634, y: 392}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 633, y: 371}
+  m_MaxSize: {x: 18003, y: 14021}
   vertical: 1
-  controlID: 44
+  controlID: 144
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,10 +170,10 @@ MonoBehaviour:
     y: 0
     width: 1338
     height: 586
-  m_MinSize: {x: 634, y: 271}
-  m_MaxSize: {x: 18004, y: 10021}
+  m_MinSize: {x: 633, y: 271}
+  m_MaxSize: {x: 18003, y: 10021}
   vertical: 0
-  controlID: 45
+  controlID: 145
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 385
     height: 586
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 604
     height: 586
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -337,9 +337,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d45e0000
+      m_SelectedIDs: 38420000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3653fffff255ffffd258ffffa05bffffbc5effff4862ffffb262ffff8e64ffff5466ffff4069ffff1a6cfffffc6efffff871fffff27affff5c7bffff387dfffff080ffff5a81ffff3683ffffd885ffff4286ffff1e88ffffae8affff188bfffffe8cffff8c8efffff68effffd290ffff7493ffffde93ffffba95ffff5298ffffbc98ffff989affff509effffba9effff98a0ffff44a3ffffaea3ffff94a5ffff4ca8ffffb6a8ffff9caaffff20acffff8aacffff66aeffff08b1ffff72b1ffff58b3ffffdeb5ffff48b6ffff24b8ffffbcbaffff26bbffff02bdffffcabfffff34c0ffff1cc2ffff06fbffff
+      m_ExpandedIDs: def4ffff60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 7.3
     speed: 2
-    m_Value: 10
+    m_Value: 7.3
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -631,7 +631,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tests 1
+    - Assets/Tests
     m_Globs: []
   m_ViewMode: 0
   m_StartGridSize: 64
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: fa7d0000
     m_LastClickedID: 32250
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000b2410000b4410000b6410000b8410000ba410000bc410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,23 +672,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffffaa500000b6500000d0500000ee53000086540000d45e0000
+    m_ExpandedIDs: ffffffff00000000b2410000b4410000b6410000b8410000ba410000bc410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: CameraTests
-      m_OriginalName: CameraTests
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 24292
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 12}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
