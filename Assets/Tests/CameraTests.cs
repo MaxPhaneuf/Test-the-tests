@@ -36,7 +36,7 @@ namespace Tests1
             camController.m_TargetCameraState.SetFromTransform(t);
             camController.m_TargetCameraState.UpdateTransform(camController.transform);
             Assert.AreEqual(t.position, camController.transform.position);
-            Assert.AreEqual(1, camController.transform.rotation.eulerAngles);
+            Assert.AreEqual(t.rotation, camController.transform.rotation.eulerAngles);
             yield return null;
         }
     }
