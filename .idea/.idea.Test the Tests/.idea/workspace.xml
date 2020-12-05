@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c019819-bb37-47de-b181-f6879bbb1f4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test the Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test the Tests/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tests/CameraTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/CameraTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fa/fa5a81a94f4d363b1f567a8b62d17f98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a6/a6320b5099828c458a0023f9e164aa20" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607096726473</updated>
       <workItem from="1607096732120" duration="2833000" />
-      <workItem from="1607120493179" duration="1123000" />
+      <workItem from="1607120493179" duration="1725000" />
     </task>
     <servers />
   </component>
