@@ -1,0 +1,25 @@
+name: Get License
+
+on:
+  pull_request: {}
+
+env:
+  UNITY_VERSION: 2020.1.2f1
+
+jobs:
+  activation:
+    name: Request activation file 🔑
+    runs-on: ubuntu-latest
+    steps:
+      # Request manual activation file
+      - name: Request manual activation file
+        id: getManualLicenseFile
+        uses: webbertakken/unity-request-manual-activation-file@master
+        with:
+          unityVersion: ${{ env.UNITY_VERSION }}
+      # Upload artifact (Unity_v20XX.X.XXXX.alf)
+      - name: Expose as artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: ${{ steps.getManualLicenseFile.outputs.filePath }}
+          path: ${{ steps.getManualLicenseFile.outputs.filePath }}
