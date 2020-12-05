@@ -2,6 +2,7 @@ name: Get License
 
 on:
   pull_request: {}
+  push: { branches: [master] }
 
 env:
   UNITY_VERSION: 2020.1.2f1
