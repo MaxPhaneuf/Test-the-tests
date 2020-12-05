@@ -1,2 +1,2 @@
 # Test-the-tests
-![Test project](https://github.com/MaxPhaneuf/Test-the-tests/workflows/Test%20project/badge.svg)
+![Unity Actions](https://github.com/MaxPhaneuf/Test-the-tests/workflows/Unity%20Actions/badge.svg)
